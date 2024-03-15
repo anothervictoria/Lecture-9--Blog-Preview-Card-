@@ -15,6 +15,13 @@
     <title>Frontend Mentor | Blog preview card</title>
     <link rel="stylesheet" href="styles.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -32,11 +39,14 @@
       <h3 class="tag">Learning</h3>
       <p class="publication-info">Published 21 Dec 2023</p>
       <h2 class="main-title">HTML & CSS foundations</h2>
-      <p>
+      <p class="main-text">
         These languages are the backbone of every website, defining structure,
         content, and presentation.
       </p>
-      <p class="author-name">Greg Hooper</p>
+      <div class="author-container">
+        <img class="author-img" src="assets/images/image-avatar.webp" />
+        <p class="author-name">Greg Hooper</p>
+      </div>
     </div>
 
     <div class="attribution">

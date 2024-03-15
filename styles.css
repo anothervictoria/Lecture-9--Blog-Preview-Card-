@@ -1,0 +1,91 @@
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /*this makes 1rem=10px */
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: var(--Yellow);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: var(--White);
+  --White: hsl(0, 0%, 100%);
+  border: black 1.5px solid;
+  box-shadow: 1.2rem 0.8rem black;
+  border-radius: 2rem;
+  max-width: 32rem;
+  padding: 1.8rem;
+
+  margin-bottom: 9.6rem;
+}
+
+.main-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.7rem;
+  margin-bottom: 1.4rem;
+}
+
+.tag {
+  background-color: var(--Yellow);
+  display: inline-block;
+  border-radius: 4px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.publication-info {
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.main-text {
+  margin-bottom: 2.2rem;
+  color: var(--Grey);
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.author-img {
+  width: 4.8rem;
+  margin-right: 1.8rem;
+  /* display: inline-block; */
+}
+
+.author-name {
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+}
+
+.attribution {
+  display: block;
+}
